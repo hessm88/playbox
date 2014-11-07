@@ -1,4 +1,4 @@
-package fsjava.apprentice;
+package apprentice;
 
 import java.util.LinkedList;
 import java.util.List;

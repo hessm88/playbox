@@ -1,4 +1,4 @@
-package fsjava.apprentice.CommonLogic;
+package apprentice.CommonLogic;
 
 public class InheritanceExample {
 

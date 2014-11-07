@@ -1,4 +1,4 @@
-package fsjava.apprentice;
+package apprentice;
 
 public class OverloadConstructorsScript {
 

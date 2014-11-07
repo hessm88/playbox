@@ -1,4 +1,4 @@
-package fsjava.apprentice.VirtualMethodInvocation;
+package apprentice.VirtualMethodInvocation;
 
 public class A {
 

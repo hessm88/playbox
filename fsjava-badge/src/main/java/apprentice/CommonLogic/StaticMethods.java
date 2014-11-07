@@ -1,4 +1,4 @@
-package fsjava.apprentice.CommonLogic;
+package apprentice.CommonLogic;
 
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;

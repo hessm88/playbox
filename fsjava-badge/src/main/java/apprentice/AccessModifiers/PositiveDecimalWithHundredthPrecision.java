@@ -1,4 +1,4 @@
-package fsjava.apprentice.AccessModifiers;
+package apprentice.AccessModifiers;
 
 import java.util.Scanner;
 
@@ -13,7 +13,7 @@ public class PositiveDecimalWithHundredthPrecision extends PositiveDecimalWithTe
 
   @Override
   public void printValue() {
-    System.out.println(super.tensValue + "." + super.tenthsValue + "" + hundredthsValue);
+    System.out.println(super.tensValue + "" + super.tenthsValue + "" + hundredthsValue);
   }
 
   public static void main(String ... args) {

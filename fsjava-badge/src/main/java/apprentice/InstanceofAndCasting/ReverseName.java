@@ -1,4 +1,4 @@
-package fsjava.apprentice.InstanceofAndCasting;
+package apprentice.InstanceofAndCasting;
 
 public class ReverseName extends Name {
 

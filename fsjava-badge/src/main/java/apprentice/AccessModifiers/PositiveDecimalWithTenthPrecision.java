@@ -1,4 +1,4 @@
-package fsjava.apprentice.AccessModifiers;
+package apprentice.AccessModifiers;
 
 public class PositiveDecimalWithTenthPrecision {
 
@@ -20,7 +20,7 @@ public class PositiveDecimalWithTenthPrecision {
   }
 
   public void printValue() {
-    System.out.println(tensValue + "." + tenthsValue);
+    System.out.println(tensValue + "" + tenthsValue);
   }
 
 }

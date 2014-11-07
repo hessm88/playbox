@@ -1,4 +1,4 @@
-package fsjava.apprentice;
+package apprentice;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
