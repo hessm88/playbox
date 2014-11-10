@@ -40,7 +40,7 @@ public class ListOfStringsScript {
 
   // Second run's results: 18,540 <= x < 18,550; Str length: 6 hex chars + 1,000 of char 'a'
   // Run with 40M of memory. Char memory: 2 bytes * 1,006 chars * 18,550 strings =
-  //    37,302,480 bytes = (approx.) 35.594 MB. This is about 4.406 MB less than
+  //    37,322,600 bytes = (approx.) 35.594 MB. This is about 4.406 MB less than
   //    the 40M of memory allotted
 
 }
