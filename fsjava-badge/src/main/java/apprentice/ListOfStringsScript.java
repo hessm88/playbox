@@ -11,23 +11,21 @@ public class ListOfStringsScript {
   public static void main(String ... args) {
     ListOfStringsScript listOfStringsScript = new ListOfStringsScript();
     List<String> strings = new LinkedList<>();
-    char stringChar = 'a';
 
     StringBuilder stringBuilder = new StringBuilder();
     for(int i=0; i<1000; i++) {
-      stringBuilder.append(stringChar);
+      stringBuilder.append('a');
     }
     String stringToAdd = stringBuilder.toString();
 
     while(true) {
       String string = Integer.toHexString(listOfStringsScript.count++);
-      System.out.println(string);
-      while (string.length() < 6) {
+      while (string.length() < 6) { // uniform-length hex string
         string += "0";
       }
 
       strings.add(string + stringToAdd);
-      if(listOfStringsScript.count % 10 == 0) {
+      if(listOfStringsScript.count % 10 == 0) { // print out count every 10 strings
         System.out.print(listOfStringsScript.count + "; ");
       }
       if(listOfStringsScript.count % 100 == 0) {
