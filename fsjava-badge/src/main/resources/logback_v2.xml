@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+
+  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{5} - %msg%n</pattern>
+    </encoder>
+  </appender>
+
+  <appender name="FILELOG" class="ch.qos.logback.core.FileAppender">
+      <append>false</append>
+      <file>logging.log</file>
+     <encoder>
+        <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{5} - %msg%n</pattern>
+      </encoder>
+    </appender>
+
+  <logger name="apprentice.logging.MainLogging" level="INFO">
+    <appender-ref ref="STDOUT"/>
+  </logger>
+
+
+  <logger name="apprentice.logging.sublogging.Sublogging" level="DEBUG">
+    <appender-ref ref="FILELOG" />
+  </logger>
+
+</configuration>

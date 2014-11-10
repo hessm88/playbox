@@ -8,7 +8,7 @@
     </encoder>
   </appender>
 
-  <logger name="apprentice.logging.Logging" level="INFO">
+  <logger name="apprentice.logging.MainLogging">
       <appender-ref ref="STDOUT"/>
   </logger>
 
