@@ -33,14 +33,14 @@ public class ListOfStringsScript {
     }
   }
 
-  // First results: 9,460 <= x < 9,470; Str length: 6 hex chars + 1,000 of char 'a'
+  // First run's results: 9,460 <= x < 9,470; Str length: 6 hex chars + 1,000 of char 'a'
   // Run with 20M of memory. Char memory: 2 bytes * 1,006 chars * 9,470 strings =
   //    19,053,640 bytes = (approx.) 18.172 MB. This is about 1.828 MB less than
   //    the 20M of memory allotted
 
-  // Second results: 18,540 <= x < 18,550; Str length: 6 hex chars + 1,000 of char 'a'
-  // Run with 40M of memory. Char memory: 2 bytes * 1,006 chars * 18,540 strings =
-  //    37,302,480 bytes = (approx.) 35.574 MB. This is about 4.426 MB less than
+  // Second run's results: 18,540 <= x < 18,550; Str length: 6 hex chars + 1,000 of char 'a'
+  // Run with 40M of memory. Char memory: 2 bytes * 1,006 chars * 18,550 strings =
+  //    37,302,480 bytes = (approx.) 35.594 MB. This is about 4.406 MB less than
   //    the 40M of memory allotted
 
 }
