@@ -1,4 +1,4 @@
-package apprentice;
+package apprentice.ListOfStrings;
 
 import java.util.LinkedList;
 import java.util.List;
