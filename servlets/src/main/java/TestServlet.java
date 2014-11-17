@@ -1,6 +1,4 @@
-import java.io.IOException;
-import java.io.PrintWriter;
-import javax.servlet.*;
+/*import javax.servlet.*;
 import javax.annotation.*;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.Cookie;
@@ -18,4 +16,4 @@ public class TestServlet extends HttpServlet {
     out.println("hello! cookie added.");
   }
 
-}
+}*/
