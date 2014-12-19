@@ -2,9 +2,9 @@ package apprentice.AccessModifiers;
 
 import java.util.Scanner;
 
-public class PositiveDecimalWithHundredthPrecision extends PositiveDecimalWithTenthPrecision {
+public final class PositiveDecimalWithHundredthPrecision extends PositiveDecimalWithTenthPrecision {
 
-  protected int hundredthsValue;
+  private int hundredthsValue;
 
   public PositiveDecimalWithHundredthPrecision(int tensValue, int tenthsValue, int hundredthsValue) {
     super(tensValue, tenthsValue);
