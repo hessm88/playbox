@@ -24,22 +24,18 @@ public class OverloadConstructorsScript {
   }
 
   public OverloadConstructorsScript(boolean aBoolean) {
-    setClassVariables(aBoolean, DEFAULT_NUMBER, DEFAULT_CHAR, DEFAULT_STRING);
+    this(aBoolean, DEFAULT_NUMBER, DEFAULT_CHAR, DEFAULT_STRING);
   }
 
   public OverloadConstructorsScript(boolean aBoolean, int aNumber) {
-    setClassVariables(aBoolean, aNumber, DEFAULT_CHAR, DEFAULT_STRING);
+    this(aBoolean, aNumber, DEFAULT_CHAR, DEFAULT_STRING);
   }
 
   public OverloadConstructorsScript(boolean aBoolean, int aNumber, char aChar) {
-    setClassVariables(aBoolean, aNumber, aChar, DEFAULT_STRING);
+    this(aBoolean, aNumber, aChar, DEFAULT_STRING);
   }
 
   public OverloadConstructorsScript(boolean aBoolean, int aNumber, char aChar, String aString) {
-    setClassVariables(aBoolean, aNumber, aChar, aString);
-  }
-
-  private void setClassVariables(boolean aBoolean, int aNumber, char aChar, String aString) {
     someBool = aBoolean;
     someNumber = aNumber;
     someChar = aChar;
